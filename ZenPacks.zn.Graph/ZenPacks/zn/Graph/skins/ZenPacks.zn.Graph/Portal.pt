@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portal</title>
+<link href="/++resource++yfyj-graph/css/portal.css" type="text/css" rel="stylesheet">
+<script src="/++resource++yfyj-graph/js/d3.js"></script>
+<script src="/++resource++yfyj-graph/js/jquery.min.js"></script>
+<script src="/++resource++yfyj-graph/js/gauge.js"></script>
+<script src="/++resource++yfyj-graph/js/portal.js"></script>
+</head>
+<body>
+<input id="device_id" type="hidden" tal:attributes="value here/id" />
+<span id="cpuGaugeContainer"></span>
+</body>
+</html>
+
